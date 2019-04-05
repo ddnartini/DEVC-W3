@@ -10,18 +10,14 @@
 </head>
 
 <body>
-    <h1 style="color:red;text-align: center;"> L I S T  P L A N E T </h1>
-    <div class="container">
-        <div class="float-right">
-            <div class="input-group m-3">
-                <input type="text" id="textSearch" class="form-control" placeholder="Search by Name"
-                    aria-label="Search by Name" aria-describedby="basic-addon2" onkeyup="cari()">
-                <div class="input-group-append">
-                    <span class="input-group-text bg-success text-black" id="basic-addon2">Search</span>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h1 style="color:red; text-align: center;"> L I S T  P L A N E T </h1>
+    <table>
+        <tr>
+            <td> <input type="text" id="textSearch" class="form-control" placeholder="Search by Name"
+                aria-label="Search by Name" aria-describedby="basic-addon2" onkeyup="cari()"></td>
+            <td> <button >Search</button> </td>
+        </tr>
+    </table>
     <div class="table-responsive" >
         <table style="background-color:aqua;" class="table table-bordered" id="listplanet">
             <thead class="bg-success">
@@ -47,15 +43,6 @@
         </table>
     </div>
     <script src="w3.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
 </body>
 
